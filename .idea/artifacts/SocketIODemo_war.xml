@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SocketIODemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SocketIODemo.war">
+      <element id="artifact" artifact-name="SocketIODemo:war exploded" />
+    </root>
+  </artifact>
+</component>
