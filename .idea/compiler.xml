@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="socketio-demo" />
         <module name="SocketIODemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="socketio-demo" target="1.5" />
       <module name="SocketIODemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
